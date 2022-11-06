@@ -11,7 +11,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page">
     <header class="page-header">
@@ -21,7 +21,7 @@
         >
         <nav class="navigation">
           <!-- Навігація на інші сторінки -->
-          <ul class="navigation__site list">
+          <ul class="navigation__site">
             <li class="navigation__item">
               <a href="./index.html" class="navigation__link active">Студія</a>
             </li>
@@ -32,7 +32,7 @@
           </ul>
         </nav>
 
-        <ul class="contacts__list list">
+        <ul class="contacts__list">
           <li class="contacts__item ">
             <a href="mailto:info@devstudio.com" class="contacts__link"
               ><svg class="contacts__icon" width="16" height="12">
@@ -54,7 +54,7 @@
 
     <main>
       <!--Section Hero-->
-      <section class=" hero section hero-overlay">
+      <section class=" hero hero-overlay">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero__button" data-modal-open>
@@ -140,9 +140,9 @@
       </section>
 
       <!--Section Features-->
-      <section class="section features">
+      <section class="features">
         <div class="container">    
-        <h2 class="visually-hidden">Критерії ведення ефективного бізнесу</h2>
+        <h2 class="features__caption">Критерії ведення ефективного бізнесу</h2>
         <ul class="features__list list">
           <li class="features__item">
             <div class="features__icon icon">
@@ -150,7 +150,7 @@
                 <use href="./images/icon.svg/icons.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="features__title title">Увага до деталей</h3>
+            <h3 class="features__title">Увага до деталей</h3>
             <p class="features__paragraph">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
@@ -162,7 +162,7 @@
                 <use href="./images/icon.svg/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="features__title title">Пунктуальність</h3>
+            <h3 class="features__title">Пунктуальність</h3>
             <p class="features__paragraph">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
@@ -174,7 +174,7 @@
                 <use href="./images/icon.svg/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="features__title title">Планування</h3>
+            <h3 class="features__title">Планування</h3>
             <p class="features__paragraph">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
@@ -185,7 +185,7 @@
                 <use href="./images/icon.svg/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="features__title title">Сучасні технології</h3>
+            <h3 class="features__title">Сучасні технології</h3>
             <p class="features__paragraph">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -197,8 +197,8 @@
       <section class="no-padding">
         <div class="container">
           <h2 class="no-padding__title">Чим ми займаємося</h2>
-          <ul class="no-padding__devices list">
-            <li class="no-padding__item item">
+          <ul class="no-padding__devices">
+            <li class="no-padding__item">
               <img
                 src="./images/img.jpg"
                 alt="Робота за комп'ютером"
@@ -208,7 +208,7 @@
                 <p class="devices-overlay__applications">Десктопні додатки</p>
               </div>
             </li>
-            <li class="no-padding__item item">
+            <li class="no-padding__item">
               <img
                 src="./images/img1.jpg"
                 alt="Робота за телефоном"
@@ -218,7 +218,7 @@
                 <p class="devices-overlay__applications">Мобільні додатки</p>
               </div>
             </li>
-            <li class="no-padding__item item">
+            <li class="no-padding__item">
               <img
                 src="./images/img2.jpg"
                 alt="Робота за планшетом"
@@ -233,10 +233,10 @@
       </section>
 
       <!--Section People-->
-      <section class="people section">
+      <section class="people">
         <div class="container">
           <h2 class="people__title-teams">Наша команда</h2>
-          <ul class="people__list list">
+          <ul class="people__list">
             <li class="people__item">
               <img
                 src="./images/img3.jpg"
@@ -246,7 +246,7 @@
               <div class="item-list">
                 <h3 class="item-list__title">Ігор Дем'яненко</h3>
                 <p class="item-list__paragraph">Product Designer</p>
-                <ul class="social-list list">
+                <ul class="social-list">
                   <li class="social-list__link social-link">
                     <a
                       href="#"
@@ -307,7 +307,7 @@
               <div class="item-list">
                 <h3 class="item-list__title">Ольга Рєпіна</h3>
                 <p class="item-list__paragraph">Frontend Developer</p>
-                <ul class="social-list list">
+                <ul class="social-list">
                   <li class="social-list__link social-link">
                     <a
                       href="#"
@@ -368,7 +368,7 @@
               <div class="item-list">
                 <h3 class="item-list__title">Микола Тарасов</h3>
                 <p class="item-list__paragraph">Marketing</p>
-                <ul class="social-list list">
+                <ul class="social-list">
                   <li class="social-list__link social-link">
                     <a
                       href="#"
@@ -429,7 +429,7 @@
               <div class="item-list">
                 <h3 class="item-list__title">Михайло Єрмаков</h3>
                 <p class="item-list__paragraph">UI Designer</p>
-                <ul class="social-list list">
+                <ul class="social-list">
                   <li class="social-list__link social-link">
                     <a
                       href="#"
@@ -486,10 +486,10 @@
       </section>
 
       <!-- Section Clients -->
-      <section class="clients section">
+      <section class="clients">
         <div class="container">
           <h2 class="clients__title">Постійні клієнти</h2>
-          <ul class="clients__list list">
+          <ul class="clients__list">
             <li class="clients__item">
               <a href="#" class="clients__link">
                 <svg class="client__icon" height="60" width="106">
@@ -545,8 +545,8 @@
             ><span class="footer__logotype">Web</span>Studio</a
           >
           <address>
-            <ul class="footer__list list">
-              <li class="footer__item item">
+            <ul class="footer__list">
+              <li class="footer__item">
                 <a
                   href="https://www.google.com.ua/maps/@50.4851493,30.4721233,14z?hl=ru"
                   target="_blank"
@@ -555,12 +555,12 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer__item item">
+              <li class="footer__item">
                 <a href="mailto:info@devstudio.com" class="footer__address"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer__item item">
+              <li class="footer__item">
                 <a href="tel:+380961111111" class="footer__address"
                   >+38 096 111 11 11</a
                 >
@@ -571,7 +571,7 @@
 
         <div class="footer-social">
           <p class="footer-social__join">Приєднуйтесь</p>
-          <ul class="footer-social__list list">
+          <ul class="footer-social__list">
             <li class="footer-social__icon">
               <a
                 href="#"

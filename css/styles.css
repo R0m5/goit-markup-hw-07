@@ -282,13 +282,6 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
-.picture__name {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
 
 .features__icon-info {
   margin: 25px 100px;
@@ -349,6 +342,13 @@ img {
 .menu__button:active {
   background-color: var(--primary-white-color);
   color: var(--navigation-color);
+}
+.picture__name {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .menu {
   display: flex;
@@ -504,8 +504,7 @@ img {
   border: 1px solid var(--social-links);
   border-radius: 4px;
   padding: 16px 32px;
-  /* align-items: center; */
-  /* justify-content: center; */
+
   width: 170px;
   height: 92px;
   transition: fill 250ms var(--timing-function),
@@ -544,8 +543,8 @@ img {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 20px;
-  /* transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
+
 .footer__logotype {
   color: var(--navigation-color);
 }
@@ -586,6 +585,7 @@ img {
   margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer .container {
   display: flex;
   align-items: baseline;
@@ -707,7 +707,7 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
-.poster .item {
+.poster .poster__item {
   flex-basis: calc ((100%-60px) / 3);
   background-color: var(--button-portfolio-bckgrn);
 }
@@ -758,7 +758,6 @@ img {
 /* Data-Modal */
 
 .backdrop.is-hidden {
-  /* visibility: hidden; */
   opacity: 0;
   pointer-events: none;
 }
@@ -772,8 +771,7 @@ img {
   height: 100%;
   width: 100%;
   z-index: 1;
-  /* min-width: 528px;
-  min-height: 581px;*/
+
   background-color: rgba(0, 0, 0, 0.2);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -983,10 +981,6 @@ textarea::placeholder {
   border: 0;
   cursor: pointer;
   transition: background-color 250ms var(--timing-function);
-  /* text-decoration: none;
-  margin: 0 auto;
-  padding: 10px 32px;
-  min-width: 216px; */
 }
 .button-submit:hover,
 .button-submit:focus {
